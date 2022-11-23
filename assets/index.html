@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Greg Krolick Portfolio</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
 </head>
 <body>
   <header>
@@ -12,8 +13,8 @@
   </header>
   <!-- navigation bar -->
   <nav>
-    <!-- links to sections of the html page -->
-    <a href="about-me">About Me</a>
+    <!-- links to articles on html page -->
+    <a href="#about-me">About Me</a>
     <a href="#projects">Projects</a>
     <a href="#contact-info">Contact Info</a>
   </nav>
@@ -22,27 +23,28 @@
     
     <!-- about-me article with photo and brief bio -->
     <article class = "about-me">
-      <img src="./images/krolick.png" alt="Greg Krolick Profile Photo">
+      <img src="./images/krolick.png" alt="Greg Krolick Profile Photo" id="greg-photo">
+      <h3>About Me</h3>
       <p>An aspiring fullstack developer. Enrolled in a fullstack boot.</p>      
     </article>
     
     <!-- set of finished apps -->
     <article class="finished-apps">
-      <!-- main app: media munch - image with link-->
+      <!-- main app: media munch - image is link-->
       <section class="project" id="main-app">
         <a href="https://overtonr.github.io/project1-media-munch/" target="_blank">
           <img src="./images/media-munch.png" alt="media munch website">
         </a>
       </section>
       
-      <!-- other app one: work scheduler - image with link-->
+      <!-- other-app-one: work scheduler - image is link-->
       <section class="project" id="other-app-one">
         <a href="https://gregkrolick.github.io/develop-calendar/" target="_blank">
           <img src="./images/work-day-scheduler.png" alt="hourly calendar">
         </a>
       </section>
       
-      <!-- other app two: code refactor - image with link-->
+      <!-- other-app-two: code refactoring - image is link-->
       <section class="project" id="other-app-two">
         <a href="https://gregkrolick.github.io/Develop/" target="_blank">
           <img src="./images/code-refactor.png" alt="refactor image">
@@ -51,9 +53,13 @@
       </section>
     </article>
 
-    <!-- contact email, links to linkedin and github repository -->
-    <article class = "contact-me">
-
+    <!-- contact email, links to linkedin, and github repository -->
+    <article class = "contact-info">
+      <h5>Contact Me</h5>
+        <p>Email: Gregrobk@live.com</p>
+        <a  href="https://www.linkedin.com/in/gregory-krolick-617515134/" target="_blank">Linkedin</a>
+        <a href="https://github.com/GregKrolick" target="_blank">Github</a>
+      
     </article>
 
   </main>

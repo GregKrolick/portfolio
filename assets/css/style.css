@@ -1,0 +1,35 @@
+html {
+  flex: auto;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+}
+
+header {
+  flex: auto;
+  width: 96%;
+  margin: 0 auto;
+}
+
+nav {
+  flex: auto;
+  width: 96%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  
+}
+
+main {
+  flex: auto;
+  width: 96%;
+  margin: 0 auto;
+  padding: 2.5rem;
+  text-align: center;
+  color: blue;
+}
+
+#greg-photo {
+  flex-grow: 0;
+  flex-shrink: 10px;
+  flex-basis: 50px;
+}
