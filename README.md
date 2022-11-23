@@ -13,10 +13,10 @@
 
 ## Deployed Site
 
-[Portfolio](https://gregkrolick.github.io/develop-calendar/)
+[Portfolio]https://gregkrolick.github.io/portfolio/
 
 ## Code Snippet
-https://github.com/GregKrolick/develop-calendar/blob/c09f5dff98664aafbfe523c0f5106641ffec6583/index.html#L30-L39
+https://github.com/GregKrolick/portfolio/blob/b109d83588fbdc41156fa16bb77dad611248ba0f/index.html#L24-L29
 
 By Gregory Krolick
 
